@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  /*  открывает блок по клику */
   $(function(){
       var toggleSlide = function(el, cl) {
           $(el).on('click', function() {
@@ -15,4 +16,12 @@ $(document).ready(function(){
       toggleSlide('.class-title4', '.class-body4');
       toggleSlide('.class-title5', '.class-body5');
   });
+  
+  /* суда класс для кнопки вверх */
+  $('.link_top').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
 });
