@@ -8,11 +8,11 @@ $(document).ready(function(){
               } return false;
           });
       }
-  
-      toggleSlide('.kategor-title', '.kategor');
-      toggleSlide('.shop-cart-title', '.shop-cart-body');
-      toggleSlide('.block-title', '.block-body');
-      toggleSlide('.block-title2', '.block-body2');
-      toggleSlide('.shop2-filter-title', '.shop2-filter-body');
+      /*  добавляем нужные классы */
+      toggleSlide('.class-title1', '.class-body1');
+      toggleSlide('.class-title2', '.class-body2');
+      toggleSlide('.class-title3', '.class-body3');
+      toggleSlide('.class-title4', '.class-body4');
+      toggleSlide('.class-title5', '.class-body5');
   });
 });
