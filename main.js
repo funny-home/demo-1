@@ -17,7 +17,7 @@ $(document).ready(function(){
       toggleSlide('.class-title5', '.class-body5');
   });
   
-  /* суда класс для кнопки вверх */
+  /* суда класс для кнопки вверх  */
   $('.link_top').click(function () {
 		$('body,html').animate({
 			scrollTop: 0
